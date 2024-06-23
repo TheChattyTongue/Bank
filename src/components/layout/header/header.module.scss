@@ -1,0 +1,11 @@
+@import 'src/styles/_mixins.scss';
+
+.header {
+	@include flex-horizontal-center;
+	justify-content: space-between;
+
+	.right-side {
+		@include flex-horizontal-center;
+		gap: 20px;
+	}
+}

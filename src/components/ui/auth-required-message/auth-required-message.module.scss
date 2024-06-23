@@ -1,0 +1,11 @@
+@import 'src/styles/_mixins.scss';
+@import 'src/styles/_variables.scss';
+
+.auth-required-message {
+	@include dashboard-section;
+
+	a {
+		font-weight: 700;
+		color: $primary;
+	}
+}
